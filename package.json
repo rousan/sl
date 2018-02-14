@@ -1,0 +1,51 @@
+{
+  "name": "nsl",
+  "version": "1.0.0",
+  "description": "An utility tool to list npm scripts from package.json file",
+  "bin": {
+    "nsl": "lib/cli.js"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rousan/nsl.git"
+  },
+  "keywords": [
+    "npm",
+    "ls",
+    "script",
+    "scripts",
+    "npm-ls",
+    "list",
+    "cli",
+    "npm-ls-scripts",
+    "automation",
+    "node",
+    "javascript",
+    "tool",
+    "mac",
+    "windows",
+    "linux",
+    "ubuntu",
+    "unix",
+    "console"
+  ],
+  "author": "Rousan Ali <rousanali786@gmail.com> (https://rousan.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rousan/nsl/issues"
+  },
+  "homepage": "https://github.com/rousan/nsl#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+}
