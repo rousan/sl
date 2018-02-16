@@ -41,6 +41,9 @@
     "url": "https://github.com/rousan/nsl/issues"
   },
   "homepage": "https://github.com/rousan/nsl#readme",
+  "dependencies": {
+    "commander": "2.14.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
