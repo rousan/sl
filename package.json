@@ -1,9 +1,10 @@
 {
-  "name": "nsl",
+  "name": "sl",
   "version": "1.0.0",
   "description": "An utility tool to list npm scripts from package.json file",
   "bin": {
-    "nsl": "lib/cli.js"
+    "script-list": "lib/cli.js",
+    "sl": "lib/cli.js"
   },
   "scripts": {
     "build": "babel src -d lib",
@@ -12,20 +13,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rousan/nsl.git"
+    "url": "git+https://github.com/rousan/sl.git"
   },
   "keywords": [
-    "nsl",
-    "npm",
+    "sl",
+    "npm-list-scripts",
+    "npm-scripts-list",
+    "scripts-list",
+    "npm-ls-scripts",
     "ls",
     "script",
     "scripts",
     "npm-ls",
+    "npm",
+    "node",
     "list",
     "cli",
-    "npm-ls-scripts",
     "automation",
-    "node",
     "javascript",
     "tool",
     "mac",
@@ -38,9 +42,9 @@
   "author": "Rousan Ali <rousanali786@gmail.com> (https://rousan.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rousan/nsl/issues"
+    "url": "https://github.com/rousan/sl/issues"
   },
-  "homepage": "https://github.com/rousan/nsl#readme",
+  "homepage": "https://github.com/rousan/sl#readme",
   "dependencies": {
     "commander": "2.14.1"
   },

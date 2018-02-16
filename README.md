@@ -1,5 +1,5 @@
-# nsl
+# sl
 
-An utility tool to list all runnable npm scripts from package.json file.
+An utility tool to list all npm scripts from package.json file.
 
-> nsl = npm script list
+> sl = script list
