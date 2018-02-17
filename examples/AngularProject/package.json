@@ -12,7 +12,6 @@
     "start": "ng serve",
     "transpile": "ngc -p tsconfig-aot.json",
     "package": "rollup -c",
-    "minify": "uglifyjs dist/dist/index.umd.js --screw-ie8 --compress --mangle --comments --output dist/dist/index.umd.min.js",
     "build": "rm -rf dist/ && npm run transpile && npm run package && npm run minify"
   },
   "keywords": [],
