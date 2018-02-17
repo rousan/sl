@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "An utility tool to list npm scripts from package.json file",
   "bin": {
-    "script-list": "lib/cli.js",
-    "sl": "lib/cli.js"
+    "script-list": "src/cli.js",
+    "sl": "src/cli.js"
   },
   "scripts": {
     "build": "babel src -d lib",
@@ -46,7 +46,10 @@
   },
   "homepage": "https://github.com/rousan/sl#readme",
   "dependencies": {
-    "commander": "2.14.1"
+    "chalk": "^2.3.1",
+    "commander": "2.14.1",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.5"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
