@@ -1,0 +1,20 @@
+{
+  "name": "react-native-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest --coverage --verbose",
+    "android": "npm run build:assets && react-native run-android",
+    "ios": "npm run build:assets && react-native run-ios",
+    "android:release": "npm run build:assets && react-native run-android --variant=release",
+    "ios:release": "npm run build:assets && react-native run-ios --configuration Release",
+    "build:android": "npm run build:assets && cd android && ./gradlew assembleRelease && cd ..",
+    "build:ios": "npm run build:assets && react-native run-ios --configuration Release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

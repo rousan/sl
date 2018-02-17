@@ -1,0 +1,21 @@
+{
+  "name": "angular-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "test:e2e": "ng e2e",
+    "test:unit": "ng test",
+    "test": "ng e2e && ng test",
+    "lint": "ng lint",
+    "start": "ng serve",
+    "transpile": "ngc -p tsconfig-aot.json",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/dist/index.umd.js --screw-ie8 --compress --mangle --comments --output dist/dist/index.umd.min.js",
+    "build": "rm -rf dist/ && npm run transpile && npm run package && npm run minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
