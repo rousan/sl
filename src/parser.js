@@ -5,27 +5,28 @@ const logger = require('./logger');
 
 function extractScripts(modulePath) {
   modulePath = path.resolve(modulePath);
+
   if (!fs.existsSync(modulePath)) {
-    throw new Error('module path does not exist');
+    throw new Error(`Path does not exist: ${modulePath}`);
   }
 
   if (!utils.isDirectory(modulePath)) {
-    throw new Error('module path needs to be a directory');
+    throw new Error(`Path needs to be a directory: ${modulePath}`);
   }
 
   const pkgFile = path.resolve(path.join(modulePath, 'package.json'));
   if (!fs.existsSync(pkgFile)) {
-    throw new Error('package.json file is not found');
+    throw new Error(`No package.json file found: ${modulePath}`);
   }
 
   const pkgData = utils.readJSONFile(pkgFile);
   if (!pkgData) {
-    throw new Error('package.json file is not in valid format');
+    throw new Error(`Invalid package.json file found: ${modulePath}`);
   }
 
   const { scripts } = pkgData;
   if (!scripts) {
-    throw new Error('scripts field not found in package.json file');
+    throw new Error(`No scripts field found: ${pkgFile}`);
   }
 
   return scripts;

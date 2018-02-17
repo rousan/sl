@@ -1,9 +1,9 @@
 const path = require('path');
-const util = require('util');
 const _ = require('lodash');
 const glob = require('glob');
+const utils = require('./utils');
 
-const promisifiedGlob = util.promisify(glob);
+const promisifiedGlob = utils.promisify(glob);
 
 function expand(patternList) {
   const expandPromises = [];

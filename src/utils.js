@@ -17,5 +17,33 @@ function maxLength(strs) {
   return Math.max(...strs.map(str => str.length));
 }
 
-module.exports = { readJSONFile, isDirectory, maxLength };
+function promisify(original) {
+  return function promisified(...args) {
+    return new Promise((resolve, reject) => {
+      original.call(undefined, ...args, (err, result) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(result);
+        }
+      });
+    });
+  };
+}
+
+function padEnd(str, length) {
+  const strLn = str.length;
+  if (strLn > length) {
+    return str;
+  }
+  return str + ' '.repeat(length - strLn);
+}
+
+module.exports = {
+  readJSONFile,
+  isDirectory,
+  maxLength,
+  promisify,
+  padEnd,
+};
 

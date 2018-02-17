@@ -23,7 +23,7 @@ function logModuleName(moduleName, isValid) {
 }
 
 function logSingleScript(scriptName, scriptValue, padEndLn) {
-  const cScriptName = chalk.gray(scriptName.padEnd(padEndLn));
+  const cScriptName = chalk.gray(utils.padEnd(scriptName, padEndLn));
   const cScriptVal = scriptValue;
 
   log(`${outputPrefix} - ${cScriptName} : ${cScriptVal}`);
