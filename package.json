@@ -9,7 +9,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "start": "node src/cli.js",
-    "test": "mocha spec"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
