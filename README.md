@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rousan/sl/develop/demo.gif" alt="NPM Script listing Demo">
+  <img src="https://raw.githubusercontent.com/rousan/sl/master/demo.gif" alt="NPM Script listing Demo">
     <br>
     <br>
 </p>
@@ -95,4 +95,4 @@ $ sl **/*
 
 Your PRs and stars are always welcome.
 
-Checkout the [CONTRIBUTING](https://github.com/rousan/sl/blob/develop/CONTRIBUTING.md) guides.
+Checkout the [CONTRIBUTING](https://github.com/rousan/sl/blob/master/CONTRIBUTING.md) guides.
