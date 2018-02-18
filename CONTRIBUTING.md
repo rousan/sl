@@ -1,12 +1,13 @@
 # Contribution Guidelines
 
-The new features and bug fixes are developed on `develop` branch.
+The new features and bug fixes are merged into `develop` branch. The `master` branch
+contains the latest stable release.
 
 Please, try to follow:
 
 * Clone the repository.
 * Checkout `develop` branch.
-* Create feature or bug fix branch using `git flow`
+* Create feature or bug fixing branch using `git flow`
 * Install dependencies.
 * Add your new features or fixes.
 * Run test.
