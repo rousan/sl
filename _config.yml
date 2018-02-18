@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: "ls"
+description: "An utility tool to list npm scripts from package.json file"
+show_downloads: "true"
