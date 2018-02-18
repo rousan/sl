@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 title: "sl"
 description: "An utility tool to list npm scripts from package.json file"
 show_downloads: "true"
+google_analytics: UA-114357378-1
 github:
   zip_url: https://github.com/rousan/sl/zipball/master
   tar_url: https://github.com/rousan/sl/tarball/master
