@@ -96,3 +96,4 @@ $ sl **/*
 Your PRs and stars are always welcome.
 
 Checkout the [CONTRIBUTING](https://github.com/rousan/sl/blob/master/CONTRIBUTING.md) guides.
+
