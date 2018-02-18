@@ -1,5 +1,5 @@
 {
-  "name": "sl",
+  "name": "script-list",
   "version": "1.0.0",
   "description": "An utility tool to list npm scripts from package.json file",
   "bin": {
