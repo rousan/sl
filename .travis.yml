@@ -5,3 +5,6 @@ install:
   - npm install
 script:
   - npm test
+env:
+  - CODECOV_TOKEN="8e63b44e-3f4b-4873-8f19-209844017d66"
+  
