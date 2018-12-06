@@ -7,6 +7,7 @@
 
 [![Build Status](https://travis-ci.org/rousan/sl.svg?branch=develop)](https://travis-ci.org/rousan/sl)
 [![codecov](https://codecov.io/gh/rousan/sl/branch/develop/graph/badge.svg)](https://codecov.io/gh/rousan/sl)
+[![Maintainability](https://api.codeclimate.com/v1/badges/85b7410d4df44dd6bec4/maintainability)](https://codeclimate.com/github/rousan/sl/maintainability)
 [![NPM version](https://img.shields.io/npm/v/script-list.svg)](https://www.npmjs.com/package/script-list)
 [![Required Node version](https://img.shields.io/node/v/script-list.svg)](https://www.npmjs.com/package/script-list)
 [![NPM total downloads](https://img.shields.io/npm/dt/script-list.svg)](https://www.npmjs.com/package/script-list)
