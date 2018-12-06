@@ -4,6 +4,7 @@
     <br>
 </p>
 
+
 [![Build Status](https://travis-ci.org/rousan/sl.svg?branch=develop)](https://travis-ci.org/rousan/sl)
 [![codecov](https://codecov.io/gh/rousan/sl/branch/develop/graph/badge.svg)](https://codecov.io/gh/rousan/sl)
 [![NPM version](https://img.shields.io/npm/v/script-list.svg)](https://www.npmjs.com/package/script-list)
