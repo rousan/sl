@@ -6,7 +6,6 @@ install:
   - npm install -g codecov
 script:
   - npm test
-  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
   - codecov
 env
   - CODECOV_TOKEN="8e63b44e-3f4b-4873-8f19-209844017d66"
